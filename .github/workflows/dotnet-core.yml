@@ -40,7 +40,7 @@ jobs:
           pushd './${{ env.AZURE_WEBAPP_PACKAGE_PATH }}'
           dotnet restore
           dotnet build --configuration Release
-          dotnet publish -c Release -o '/myapp' 
+          dotnet publish -c Release -o './myapp' 
           popd          
       # Deploy to Azure Web apps
       - name: 'Run Azure webapp deploy action using publish profile credentials'
