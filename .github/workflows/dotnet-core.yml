@@ -1,3 +1,4 @@
+# DUmmy comment to trigger the workflow
 name: Deploy ASP.NET Core app to Azure Web App
 
 on:
